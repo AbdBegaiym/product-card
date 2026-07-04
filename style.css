@@ -1,0 +1,38 @@
+
+body{
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  color: #515076;
+}
+
+img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.title{
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 110px;
+  text-align: center;
+}
+
+.product-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-text{
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.product-item {
+  background-color: #F7F7FA;
+  padding: 25px;
+  margin-bottom: 30px;
+  width: 340px;
+  box-sizing: border-box;
+  margin-left: 85px;
+}
