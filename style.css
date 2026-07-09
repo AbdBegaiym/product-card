@@ -62,8 +62,12 @@ img {
 }
 
 .list {
-  padding-left: 15px;
+  padding-left: 20px;
   line-height: 18px;
+}
+
+.list li::marker {
+  font-size: 1.4em;
 }
 
 .product-price{
