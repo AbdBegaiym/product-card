@@ -1,11 +1,11 @@
 
-body{
+body {
   font-family: Montserrat, sans-serif;
   font-size: 13px;
   color: #515076;
 }
 
-.container{
+.container {
   max-width: 1110px;
   margin: 0 auto;
   background-image: url("./images/bg_1.png");
@@ -20,7 +20,7 @@ img {
   width: 290px;
 }
 
-.title{
+.title {
   font-size: 70px;
   font-weight: 400;
   margin-top: 0;
@@ -29,7 +29,7 @@ img {
   text-align: center;
 }
 
-.product-list{
+.product-list {
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
@@ -56,7 +56,7 @@ img {
   text-transform: uppercase;
 }
 
-.main-text{
+.main-text {
   font-size: 13px;
   line-height: 18px;
 }
@@ -70,9 +70,95 @@ img {
   font-size: 1.4em;
 }
 
-.product-price{
+.product-price {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+}
+
+/*доп дз*/
+
+.product-item:hover{
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  background-color: #FAFAFD
+
+}
+
+.product-btn {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 20px;
+
+  background-color: #A5A3B9;
+  border: none;
+  padding: 15px 107px;
+  border-radius: 3px;
+
+  margin-top: 30px;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.product-btn:hover {
+  background-color: #b4b2c7;
+  font-weight: 500;
+}
+
+.product-btn:active {
+  background-color: #7a7690;
+}
+
+.product-item-stock {
+  background-color: #fcf4fb;
+  color: #C584B2;
+
+  
+  transition: background-color 0.3s ease;
+}
+
+.product-item-stock:hover {
+  background-color: #FFF8FF;
+}
+
+.product-btn-stock {
+  background-color: #C584B2;
+  
+  transition: background-color 0.3s ease;
+}
+
+.product-btn-stock:hover {
+  background-color: #d498c2;
+}
+
+.product-btn-stock:active {
+  background-color: #8c5a7b;
+}
+
+.type-stock{
+  color: #C584B2;
+}
+
+/*рейтинг*/
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.stars {
+  color: #FFC107;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.rating-value {
+  font-size: 20px;
+  color: #836e7d;
 }
