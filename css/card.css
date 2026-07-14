@@ -1,0 +1,96 @@
+
+.card{
+    background-color: #F7F7FA;
+    padding: 25px;
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+
+
+.card__image {
+    max-width: 100%;
+    height: auto;
+    display: block; /* уберет лишний отступ снизу у картинок */
+    margin: 0 auto 30px auto;
+}
+
+
+.card__category {
+    font-size: 12px;
+    color: #A5A3B9;
+    text-transform: uppercase;
+}
+
+.card__category--stock{
+    color: #C584B2;
+}
+
+
+.card__price {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+/*кнопка*/
+.card__btn {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 20px;
+
+    background-color: #A5A3B9;
+    border: none;
+    width: 100%; /* Растянет кнопку ровно по ширине контента карточки */
+    padding: 15px 0;
+    border-radius: 3px;
+
+    margin-top: 30px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.card__btn:hover {
+    background-color: #b4b2c7;
+    font-weight: 500;
+}
+
+.card__btn:active {
+     background-color: #7a7690;
+}
+
+.card__btn--stock {
+    background-color: #C584B2;
+
+    transition: background-color 0.3s ease;
+}
+
+.card__btn--stock:hover {
+    background-color: #d498c2;
+}
+
+.card__btn--stock:active {
+     background-color: #8c5a7b;
+}
+
+/*рейтинг*/
+.card__rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rating__stars {
+    color: #FFC107;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.rating__value {
+    font-size: 20px;
+    color: #836e7d;
+}

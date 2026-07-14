@@ -1,0 +1,9 @@
+
+.compound__list {
+    padding-left: 20px;
+    line-height: 18px;
+}
+
+.compound__list li::marker {
+    font-size: 1.4em;
+}

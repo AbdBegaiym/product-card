@@ -1,0 +1,39 @@
+*,
+*before,
+*after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    color: #515076;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    background-image: url("./images/bg_1.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 790px auto;
+
+    margin-bottom: 116px;
+
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 110px;
+    padding-top: 220px;
+    text-align: center;
+}
+
+.clear-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
