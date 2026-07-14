@@ -1,0 +1,32 @@
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+}
+
+.products__item {
+    width: 340px;
+}
+
+.products__item:hover{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #FAFAFD
+
+}
+
+
+.products__item--stock {
+    background-color: #fcf4fb;
+    color: #C584B2;
+
+    transition: background-color 0.3s ease;
+}
+
+.products__item--stock:hover {
+    background-color: #FFF8FF;
+}
+
