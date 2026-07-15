@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/css/card.css">
   <link rel="stylesheet" href="/css/products.css">
   <link rel="stylesheet" href="/css/compound.css">
+  <link rel="stylesheet" href="/css/header.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,29 @@
 </head>
 <body>
     <main class="main">
+
+        <header class="header"> <!--МЕНЮ-->
+            <div class="containerr header__container">
+                <a href="#" class="header__logo">
+                    <img src="../images/logo.png" alt="Логотип компании" class="header__logo-img">
+                </a>
+
+                <nav class="header__menu">
+                <ul class="header__list clear-list">
+                    <li><a href="#" class="header__link">Главная</a></li>
+                    <li><a href="#" class="header__link">Каталог</a></li>
+                    <li><a href="#" class="header__link">Контакты</a></li>
+                </ul>
+                </nav>
+
+                <a href="#" class="header__basket">
+                    <img src="../images/basket.png" alt="Логотип компании" class="header__basket-img">
+                </a>
+            </div>
+        </header>
+
         <div class="container">
+
             <h1 class="title">Выбери свой продукт</h1>
             <ul class="products clear-list">
                 <li class="products__item products__item--stock card"> <!-- 1 карточка -->
